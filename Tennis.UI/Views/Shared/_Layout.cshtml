@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+        @*<meta name="viewport" content="width=device-width" />
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        @Styles.Render("~/Content/mobileCss", "~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+        @Styles.Render("~/Content/bootstrapcss");
+    </head>
+    <body>
+        @*<div data-role="page" data-theme="b">
+            <div data-role="header">
+                @if (IsSectionDefined("Header")) {
+                    @RenderSection("Header")
+                } else {
+                    <h1>@ViewBag.Title</h1>
+                    @Html.Partial("_LoginPartial")
+                }
+            </div>*@
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Tennis</a>
+
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+            <div class="container">
+                @RenderBody()
+            </div>
+        @*</div>*@
+
+        @*@Scripts.Render("~/bundles/jquery")
+        <script>
+            $(document).on("mobileinit", function () {
+                $.mobile.ajaxEnabled = false;
+            });
+        </script>
+        @Scripts.Render("~/bundles/jquerymobile")
+        @RenderSection("scripts", required: false)*@
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TennisModelStoreContainer" CdmEntityContainer="TennisEntities">
+    <EntitySetMapping Name="Member">
+      <EntityTypeMapping TypeName="TennisModel.Member">
+        <MappingFragment StoreEntitySet="Member">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="Seed" ColumnName="Seed" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Forename" ColumnName="Forename" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

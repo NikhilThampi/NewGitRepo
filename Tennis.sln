@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.DAL", "Tennis.DAL\Tennis.DAL.csproj", "{9F68163A-9C99-478E-94BE-04CA9008AC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Entity.DB", "Tennis.Entity.DB\Tennis.Entity.DB.csproj", "{9A3F8628-024F-4959-98FB-79A3433E367E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.UI.Model", "Tennis.UI.Model\Tennis.UI.Model.csproj", "{2660FDB5-1153-4E6E-B10F-CF7F5D29B4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Service", "Tennis.Service\Tennis.Service.csproj", "{F7F60CD8-4A6B-4E87-9746-2658B9417F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.UI", "Tennis.UI\Tennis.UI.csproj", "{66349DBB-A6A6-4622-B411-0AD627569CA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9641118A-986C-4312-903E-43DCDBC77078}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F68163A-9C99-478E-94BE-04CA9008AC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F68163A-9C99-478E-94BE-04CA9008AC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F68163A-9C99-478E-94BE-04CA9008AC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F68163A-9C99-478E-94BE-04CA9008AC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3F8628-024F-4959-98FB-79A3433E367E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3F8628-024F-4959-98FB-79A3433E367E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3F8628-024F-4959-98FB-79A3433E367E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3F8628-024F-4959-98FB-79A3433E367E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2660FDB5-1153-4E6E-B10F-CF7F5D29B4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2660FDB5-1153-4E6E-B10F-CF7F5D29B4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2660FDB5-1153-4E6E-B10F-CF7F5D29B4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2660FDB5-1153-4E6E-B10F-CF7F5D29B4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F60CD8-4A6B-4E87-9746-2658B9417F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F60CD8-4A6B-4E87-9746-2658B9417F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F60CD8-4A6B-4E87-9746-2658B9417F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F60CD8-4A6B-4E87-9746-2658B9417F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

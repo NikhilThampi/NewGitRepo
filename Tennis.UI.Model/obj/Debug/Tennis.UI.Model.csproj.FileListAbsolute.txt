@@ -1,0 +1,7 @@
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\bin\Debug\Tennis.UI.Model.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\bin\Debug\Tennis.UI.Model.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\obj\Debug\Tennis.UI.Model.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\obj\Debug\Tennis.UI.Model.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\bin\Debug\Tennis.Entity.DB.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\bin\Debug\Tennis.Entity.DB.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.UI.Model\obj\Debug\Tennis.UI.Model.csprojResolveAssemblyReference.cache

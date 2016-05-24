@@ -1,0 +1,48 @@
+﻿@model  Tennis.UI.ViewModel.DashboardViewModel
+@using Tennis.UI.Common
+@{
+    ViewBag.Title = "MembersList";
+}
+
+
+
+
+
+
+    <p>
+       @Html.ActionLink("Create New", "Create", FormMethod.Post, new { id = "frmcasedata" })
+    </p>
+  
+        <table class="table table-bordered" border="1" >
+            <tr>
+                <th>Forname</th>
+                <th>Surname</th>
+                <th>Sead</th>
+                <th></th>
+            </tr>
+           
+
+            @foreach (var item in Model.memberslist)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(x => item.Forename)    
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => item.Surname)
+                    </td>
+                    <td> @Html.DisplayFor(x => item.Seed) </td>
+                    <td>
+                        @*<a href="@Url.Action("DenotifyCase", "Case", new { caseId = @ViewBag.CaseId,formAction = "Denotify" })" class="btn btn-success btn-mini">Denotify</a>*@
+                      <a href="@Url.Action("Edit", "Edit", new { id = item.Id, @class = "frmid" })" class="btn btn-success btn-mini">Edit</a> 
+                      @*<a href="@Url.Action("Details", "Details", new { /* id=item.PrimaryKey */ })" class="btn btn-success btn-mini">Details</a>*@
+                       <a href="@Url.Action("Delete", "Delete", new { /* id=item.PrimaryKey */ })" class="btn btn-success btn-mini">Delete</a>
+                    
+                </tr>
+            }
+
+        </table>
+
+
+

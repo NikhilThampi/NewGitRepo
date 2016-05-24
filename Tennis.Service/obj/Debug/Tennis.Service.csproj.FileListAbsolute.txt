@@ -1,0 +1,14 @@
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\obj\Debug\Tennis.Service.csprojResolveAssemblyReference.cache
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.Service.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\AutoMapper.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.DAL.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.Entity.DB.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.UI.Model.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\EntityFramework.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\AutoMapper.xml
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.DAL.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.Entity.DB.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\Tennis.UI.Model.pdb
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\bin\Debug\EntityFramework.xml
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\obj\Debug\Tennis.Service.dll
+C:\Users\Nikhil.SherineThampi\Documents\Visual Studio 2013\Projects\Tennis\Tennis.Service\obj\Debug\Tennis.Service.pdb
